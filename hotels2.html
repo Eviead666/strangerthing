@@ -1,0 +1,194 @@
+﻿<!DOCTYPE HTML>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Дивні дива - Головна</title>
+    <!-- Підключення українських шрифтів -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Основні стилі */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1b1b1b;
+            color: #e0e0e0;
+            font-family: 'PT Sans', sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3 {
+            font-family: 'PT Serif', serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Шапка */
+        #header {
+            background: #262626;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            border-bottom: 3px solid #444;
+        }
+
+        #header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #ff3b3b; /* Красний колір */
+            text-shadow: 0px 0px 10px rgba(255, 0, 0, 0.8); /* Світіння */
+        }
+
+        #header nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        #header nav ul li a {
+            color: #e0e0e0;
+            text-decoration: none;
+            padding: 10px 20px;
+            background: rgba(255, 0, 0, 0.2);
+            border-radius: 8px;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        #header nav ul li a:hover {
+            background: #ff3b3b;
+            color: #fff;
+            transform: translateY(-2px);
+        }
+
+        /* Стиль банера */
+        #banner {
+            background: radial-gradient(circle, rgba(50, 50, 50, 0.8), #1b1b1b);
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+        }
+
+        #banner h2 {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+            color: #ff4d4d;
+            text-shadow: 0px 0px 15px rgba(255, 59, 59, 1), 0px 0px 30px rgba(255, 0, 0, 0.8); /* Сильне світіння */
+        }
+
+        #banner span {
+            font-size: 1.3rem;
+            color: #e0e0e0;
+        }
+
+        /* Секція з контентом */
+        .section {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .section h3 {
+            font-size: 2.5rem;
+            color: #ff3b3b; /* Красний колір заголовка */
+            margin-bottom: 20px;
+            text-shadow: 0px 0px 10px rgba(255, 59, 59, 0.8);
+        }
+
+        .section p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #cfcfcf;
+        }
+
+        .section img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 0, 0, 0.8); /* Червоне світіння */
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .section img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(255, 0, 0, 1);
+        }
+
+        /* Футер */
+        #footer {
+            background: #262626;
+            color: #bbb;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        #footer .menu {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 0;
+        }
+
+        #footer .menu li {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка -->
+    <header id="header" class="container">
+        <h1>Дивні дива</h1>
+        <nav>
+            <ul>
+                <li><a href="main2.html">Головна</a></li>
+                <li><a href="nature2.html">Персонажі</a></li>
+                <li><a href="cities2.html">Робота</a></li>
+                <li><a href="arhit2.html">Частини</a></li>
+                <li><a href="hotels2.html">Нові дивні дива</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Банер -->
+    <section id="banner">
+        <h2>Нові дивні дива</h2>
+        <span>Серіал, який зараз розробляється в 3D. Але не відомо, коли він вийде.</span>
+    </section>
+
+    <!-- Основний контент -->
+    <section class="section container">
+        <h3>СЕРІАЛ ЗАРАЗ РОЗРОБЛЯЄТЬСЯ В 3Д</h3>
+        <p>але не відомо, коли він вийде.</p>
+        <img src="images/scp3.png" alt="Сцена з серіалу" />
+    </section>
+
+    <!-- Футер -->
+    <footer id="footer">
+        <div class="container">
+            <ul class="menu">
+                <li>&copy; Дивні дива. Всі права захищені.</li>
+                <li>Дизайн: HTML5 та CSS</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
